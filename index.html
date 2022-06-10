@@ -5,11 +5,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 
 <body>
 
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container-header">
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li><a class="header-list-item" href="#contacts">Contacts</a></li>
+                    <li><a class="header-list-item" href="#about-me">About me</a></li>
+                    <li><a class="header-list-item" href="#skills">Skills</a></li>
+                    <li><a class="header-list-item" href="#courses">Courses</a></li>
+                    <li><a class="header-list-item" href="#code">Code</a></li>
+                    <li><a class="header-list-item" href="#languages">Languages</a></li>
+                    <li><a class="header-list-item" href="#projects">Projects</a></li>
+                    <li><a class="header-list-item" href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+    <main class="main">
+
+        <!-- Hero -->
+
+        <section class="hero">
+            <img class="hero-img" src="./assets/img/photo1.jpg" alt="hero" width="350">
+            <div class="hero-about">
+                <h1 class="hero-title">Maksym Stelmakh</h1>
+                <p class="hero-text">The Rolling Scope School Student</p>
+            </div>
+        </section>
+
+        <!--Content>-->
+
+        <section class="content">
+
+            <!-- Contacts -->
+
+            <div class="contacts" id="contacts">
+                <h2 class="main-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li><a class="contacts-link" href="https://goo.gl/maps/iy1mvtdzDNh1XMii9"
+                            target="_blank"><span>Kyiv,Ukraine</span></a></li>
+                    <li><a class="contacts-link"
+                            href="mailto:stelmakh1994@gmail.com"><span>E-mail:</span>stelmakh1994@gmail.com</a></li>
+                    <li><a class="contacts-link" href="tel:+380961234567"><span>Phone:</span> +38 096 12 34 567</a></li>
+                    <li><a class="contacts-link" href="https://github.com/StelmakhM"
+                            target="_blank"><span>GitHub:</span> StelmakhM</a></li>
+                    <li><a class="contacts-link" href="https://discordapp.com/users/977598288041746532/"
+                            target="_blank"><span>Discord:</span>Maksym#5370</a></li>
+                </ul>
+            </div>
+
+            <!-- About-me -->
+
+            <div class="about" id="about-me">
+                <h2 class="main-title">About me</h2>
+                <p class="about-text">
+                    I set myself the goal of studying html, css, java-scritp and becoming a front-end developer. I
+                    couldn’t wait to start
+                    studying at Rolling Scope School and now I am very excited. I used to be a surgeon, but now I
+                    have
+                    decided to change my
+                    profession. My strengths are responsibility, teamwork, time management and fast learning. I
+                    always
+                    strive for
+                    self-development and learning new things.
+                </p>
+            </div>
+
+            <!-- Skills -->
+
+            <div class="skills" id="skills">
+                <h2 class="main-title">Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Java-Script</li>
+                </ul>
+            </div>
+
+
+            <!-- Courses -->
+
+            <div class="courses" id="courses">
+                <h2 class="main-title">Courses</h2>
+                <ul class="courses-list">
+                    <li class="courses-item"><span>Udemy:</span> Build Responsive Real-World Websites with HTML and CSS
+                    </li>
+                    <li><span>RSS:</span> Course «JavaScript/Front-end. Stage 0»</li>
+                    <li><span>Go IT:</span> HTML/CSS DEMO</li>
+                    <li><span>W3Schools:</span> HTML/CSS Tutorials</li>
+                </ul>
+            </div>
+            <!-- Code -->
+
+            <div class="code" id="code">
+                <h2 class="main-title">Code</h2>
+                <pre>
+                        <code>
+    function factorial(n) {
+        if(n &lt; 0) return null;
+        if (n &lt;= 1) return 1;
+        return n * factorial(n-1);
+    }
+                        </code>
+                </pre>
+            </div>
+
+
+            <!-- Languages -->
+
+            <div class="languages" id="languages">
+                <h2 class="main-title">Languages</h2>
+                <ul class="languages-list">
+                    <li><span>English</span> - Intermediate</li>
+                    <li><span>Ukrainian</span> - Native </li>
+                </ul>
+            </div>
+
+            <!-- Projects -->
+
+            <div class="projects" id="projects">
+                <h2 class="main-title">Projects</h2>
+                <a class="projects-link" href="https://stelmakhm.github.io/homework/" target="_blank">WebStudio
+                    Landing</a>
+            </div>
+
+            <!-- Education -->
+
+            <div class="education" id="education">
+                <h2 class="main-title">Education</h2>
+                <p>Bogomolets National Medical University</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/StelmakhM"><img class="footer-image" src="./assets/img/github.svg" alt="git"
+                title="GitHub" width="80"></a>
+        <h2 class="footer-title">&copy; 2022</h2>
+        <a href="https://rs.school/js/" title="RS School"> <img class="footer-image" src="./assets/img/rs_school_js.svg"
+                alt="rs" width="80"></a>
+    </footer>
 </body>
+
 
 </html>
